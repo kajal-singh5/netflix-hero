@@ -1,25 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
     <title>My Netflix</title>
-    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <nav>
-        <div class="logo">NETFLIX</div>
-    </nav>
+    <header>
+        <nav>
+            <div class="nav">
+                <a href="#">
+                    <p class="logo">NETFLIX</p>
+                </a>
+                <svg class="menu" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                    <style>
+                        svg {
+                            fill: #eb0c0c
+                        }
+                    </style>
+                    <path
+                        d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM64 256c0-17.7 14.3-32 32-32H480c17.7 0 32 14.3 32 32s-14.3 32-32 32H96c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
+                </svg>
+            </div>
+        </nav>
+    </header>
 
-    <div class="hero">
-        <div class="tagline">Unlimited movies, TV shows and more</div>
-        <div class="subline">Watch anywhere, Cancel anytime.</div>
-        <form>
-            <input type="email" class="input" placeholder="Enter your email">
-            <button class="button" >Get Started</button>
-        </form>
-    </div>
+    <main>
+        <div class="hero">
+            <div class="hero-tagline">Unlimited movies, TV shows and more</div>
+            <div class="hero-subline">Watch anywhere, Cancel anytime.</div>
+            <form class="hero-input">
+                <input type="email" placeholder="Enter your email">
+                <button type="button">Get Started</button>
+            </form>
+        </div>
+    </main>
 
+    <script src="./scripts/script.js"></script>
 </body>
+
 </html>

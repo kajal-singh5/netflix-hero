@@ -1,4 +1,4 @@
-<img src="./netflix.png" alt="netflix hero section screenshot" width="600px" height="300px">
+<img src="./assets/images/netflix.png" alt="netflix hero section screenshot" width="600px" height="300px">
 
 # Netflix Hero Section
 
